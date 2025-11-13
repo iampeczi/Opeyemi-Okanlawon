@@ -40,12 +40,16 @@ const projects = [
 
 const FeaturedProjects = () => {
   return (
-    <section id="projects" className="p-12 bg-background mt-10 min-h-screen scroll-smooth">
+    <section
+      id="projects"
+      className="p-12 bg-background mt-10 min-h-screen scroll-smooth"
+    >
       <h3 className="text-center text-3xl momo-signature-regular mb-20 text-secondary reveal-on-scroll">
         Featured <span className="text-primary">Projects</span>{" "}
       </h3>
       <p className="text-center text-primary mb-12 max-w-2xl mx-auto reveal-on-scroll min-w-full">
-       Explore some of my recent projects, carefully designed with attention to detail, smooth performance, and an intuitive user experience.
+        Explore some of my recent projects, carefully designed with attention to
+        detail, smooth performance, and an intuitive user experience.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 reveal-on-scroll">
         {" "}
@@ -81,18 +85,23 @@ const FeaturedProjects = () => {
               <div className="flex justify-between items-center">
                 <div className="flex space-x-3 p-2">
                   <Link
-                   to={`/projects/${project.id}`}
-                    
+                    to={`/projects/${project.id}`}
                     className="text-foreground/80 hover:text-primary transition-colors duration-300"
                   >
-                    <FaExternalLinkAlt size={20} className="hover:text-secondary transition-colors duration-300" />
+                    <FaExternalLinkAlt
+                      size={20}
+                      className="hover:text-secondary transition-colors duration-300"
+                    />
                   </Link>
                   <a
                     target="_blank"
                     href={project.githubUrl}
                     className="text-foreground/80 hover:text-primary transition-colors duration-300"
                   >
-                    <IoGlobeOutline size={20} className="hover:text-secondary transition-colors duration-300" />
+                    <IoGlobeOutline
+                      size={20}
+                      className="hover:text-secondary transition-colors duration-300"
+                    />
                   </a>
                 </div>
               </div>
@@ -103,7 +112,7 @@ const FeaturedProjects = () => {
       <div className="text-center mt-12 ">
         <a
           target="_blank"
-          href="https://github.com/man-o-man"
+          href="https://github.com/iampeczi/Opeyemi-Okanlawon.git"
           className="btn w-fit flex items-center mx-auto gap-2 animate-border border text-primary reveal-on-scroll"
         >
           Checkout my Github <FaArrowRight size={16} />
