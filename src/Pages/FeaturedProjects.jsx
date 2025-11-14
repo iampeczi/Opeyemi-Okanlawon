@@ -66,7 +66,7 @@ const FeaturedProjects = () => {
               />
             </div>
             <div>
-              <div className="p-6">
+              <div className="py-6">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
                     <span
