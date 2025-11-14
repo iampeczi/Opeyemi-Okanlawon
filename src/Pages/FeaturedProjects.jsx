@@ -110,13 +110,16 @@ const FeaturedProjects = () => {
         ))}
       </div>
       <div className="text-center mt-12 ">
-        <a
+        <button>
+           <a
           target="_blank"
           href="https://github.com/iampeczi/Opeyemi-Okanlawon.git"
-          className="btn w-fit flex items-center mx-auto gap-2 animate-border border text-primary reveal-on-scroll"
+          className="btn w-fit flex items-center mx-auto gap-2 animate-border border reveal-on-scroll hover:border-0"
         >
           Checkout my Github <FaArrowRight size={16} />
         </a>
+        </button>
+       
       </div>
     </section>
   );
