@@ -85,7 +85,7 @@ const FeaturedProjects = () => {
               <div className="flex justify-between items-center">
                 <div className="flex space-x-3 p-2">
                   <Link
-                    to={`/projects/${project.id}`}
+                    // to={`/projects/${project.id}`}
                     className=""
                   >
                     <FaExternalLinkAlt
@@ -95,7 +95,7 @@ const FeaturedProjects = () => {
                   </Link>
                   <a
                     target="_blank"
-                    href={project.githubUrl}
+                    // href={project.githubUrl}
                     className=""
                   >
                     <IoGlobeOutline
