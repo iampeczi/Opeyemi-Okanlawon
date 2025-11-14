@@ -33,25 +33,25 @@ const About = () => {
             <div className="text-center mt-20 flex justify-center items-center gap-4 md:gap-6 reveal-on-scroll">
               <div className="animate-bounce-in-delay-1 p-3 bg-primary/10 rounded-full flex items-center justify-center hover:text-secondary transition-colors duration-200 bounce">
                 {" "}
-                <a href="">
+                <a href="https://www.facebook.com/iampeczi" target="_blank">
                   <FaFacebookF size={20} />
                 </a>
               </div>
               <div className="animate-bounce-in-delay-2 p-3 bg-primary/10 rounded-full flex items-center justify-center hover:text-secondary transition-colors duration-200 bounce">
                 {" "}
-                <a href="">
+                <a href="https://www.x.com/iampeczi?s=21" target="_blank">
                   <FaXTwitter size={20} />
                 </a>
               </div>
               <div className="animate-bounce-in-delay-3 p-3 bg-primary/10 rounded-full flex items-center justify-center hover:text-secondary transition-colors duration-200 bounce">
                 {" "}
-                <a href="">
+                <a href="https://www.instagram.com/iampeczi" target="_blank">
                   <RiInstagramFill size={20} />
                 </a>
               </div>
               <div className="animate-bounce-in-delay-4 p-3 bg-primary/10 rounded-full flex items-center justify-center hover:text-secondary transition-colors duration-200 bounce">
                 {" "}
-                <a href="">
+                <a href="https://www.github.com/iampeczi" target="_blank">
                   <FaGithub size={20} />
                 </a>
               </div>
