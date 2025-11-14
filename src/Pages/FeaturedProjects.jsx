@@ -67,7 +67,7 @@ const FeaturedProjects = () => {
             </div>
             <div>
               <div className="py-6">
-                <div className="px-1 flex flex-wrap gap-2 mb-4">
+                <div className="px-2 flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
                     <span
                       className="px-3 py-1 text-xs font-medium rounded-full bg-secondary text-primary border animate-border"
@@ -86,21 +86,21 @@ const FeaturedProjects = () => {
                 <div className="flex space-x-3 p-2">
                   <Link
                     to={`/projects/${project.id}`}
-                    className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                    className=""
                   >
                     <FaExternalLinkAlt
                       size={20}
-                      className="hover:text-secondary transition-colors duration-300"
+                      className="hover:text-primary text-secondary transition-colors duration-300"
                     />
                   </Link>
                   <a
                     target="_blank"
                     href={project.githubUrl}
-                    className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                    className=""
                   >
                     <IoGlobeOutline
                       size={20}
-                      className="hover:text-secondary transition-colors duration-300"
+                      className="text-secondary hover:text-primary transition-colors duration-300"
                     />
                   </a>
                 </div>
