@@ -41,9 +41,9 @@ const Contact = () => {
                       <h4 className="font-medium text-sm">Email</h4>
                       <a
                         href="mailto:manthemanmr@gmail.com"
-                        className="text-muted-foreground hover:text-primary transition-colors"
+                        className="text-muted-foreground duration-200 hover:text-secondary transition-colors"
                       >
-                        Manthemanmr@gmail.com
+                        opexy56@gmail.com
                       </a>
                     </div>
                   </div>
@@ -55,7 +55,7 @@ const Contact = () => {
                       <h4 className="font-medium text-sm">Phone</h4>
                       <a
                         href="tel:2348065611409"
-                        className="text-muted-foreground hover:text-primary transition-colors"
+                        className="text-muted-foreground hover:text-secondary duration-200 transition-colors"
                       >
                         +234 (806) 561-1409
                       </a>
